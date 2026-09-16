@@ -1,0 +1,8 @@
+message = input("Input a message: ").strip()
+print(f"Length: {len(message)}")
+print(f"First: {message[0]}")
+print(f"Last: {message[-1]}")
+print(f"First 3: {message[0:3]}")
+print(f"Last 3: {message[-3:]}")
+print(f"Every second character: {message[::2]}")
+print(f"Reversed: {message[::-1]}")
